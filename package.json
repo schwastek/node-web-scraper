@@ -1,0 +1,31 @@
+{
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "A modular template for web scraping with Node.js.",
+  "author": "Sebastian Chwastek",
+  "license": "MIT",
+  "scripts": {
+    "prod:update-customers": "cross-env NODE_ENV=production node ./scripts/update-customers-script.js updateCustomers",
+    "dev:update-customers": "cross-env NODE_ENV=development node ./scripts/update-customers-script.js updateCustomers",
+    "test": "cross-env NODE_ENV=test mocha ./test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "better-sqlite3": "^6.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cross-env": "^6.0.3",
+    "make-runnable": "^1.3.6",
+    "uuid": "^7.0.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^6.2.2",
+    "nock": "^12.0.1"
+  },
+  "private": true
+}

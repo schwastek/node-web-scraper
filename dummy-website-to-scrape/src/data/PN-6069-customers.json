@@ -1,0 +1,107 @@
+[
+    {
+        "CustomerName": "CS-5735",
+        "TransactionDate": "10/8/19 14:07",
+        "Total": "61.46"
+    },
+    {
+        "CustomerName": "CS-5820",
+        "TransactionDate": "7/29/19 17:14",
+        "Total": "55.77"
+    },
+    {
+        "CustomerName": "CS-5310",
+        "TransactionDate": "5/30/19 18:49",
+        "Total": "50.82"
+    },
+    {
+        "CustomerName": "CS-5354",
+        "TransactionDate": "5/18/19 23:18",
+        "Total": "24.01"
+    },
+    {
+        "CustomerName": "CS-6619",
+        "TransactionDate": "3/20/19 6:04",
+        "Total": "97.05"
+    },
+    {
+        "CustomerName": "CS-6639",
+        "TransactionDate": "1/31/20 23:33",
+        "Total": "66.53"
+    },
+    {
+        "CustomerName": "CS-6516",
+        "TransactionDate": "9/10/19 1:22",
+        "Total": "51.91"
+    },
+    {
+        "CustomerName": "CS-6688",
+        "TransactionDate": "8/6/19 16:26",
+        "Total": "52.48"
+    },
+    {
+        "CustomerName": "CS-5970",
+        "TransactionDate": "1/28/20 12:41",
+        "Total": "99.63"
+    },
+    {
+        "CustomerName": "CS-6988",
+        "TransactionDate": "6/17/19 20:40",
+        "Total": "26.85"
+    },
+    {
+        "CustomerName": "CS-6443",
+        "TransactionDate": "5/3/19 9:08",
+        "Total": "53.98"
+    },
+    {
+        "CustomerName": "CS-5066",
+        "TransactionDate": "1/23/20 6:39",
+        "Total": "83.67"
+    },
+    {
+        "CustomerName": "CS-5644",
+        "TransactionDate": "8/9/19 2:06",
+        "Total": "82.03"
+    },
+    {
+        "CustomerName": "CS-6276",
+        "TransactionDate": "7/7/19 19:57",
+        "Total": "72.04"
+    },
+    {
+        "CustomerName": "CS-6224",
+        "TransactionDate": "12/5/19 15:09",
+        "Total": "96.1"
+    },
+    {
+        "CustomerName": "CS-5094",
+        "TransactionDate": "2/1/20 1:48",
+        "Total": "98.93"
+    },
+    {
+        "CustomerName": "CS-6621",
+        "TransactionDate": "10/22/19 0:45",
+        "Total": "6.76"
+    },
+    {
+        "CustomerName": "CS-5812",
+        "TransactionDate": "5/30/19 17:30",
+        "Total": "46.99"
+    },
+    {
+        "CustomerName": "CS-5563",
+        "TransactionDate": "3/28/19 10:38",
+        "Total": "27.81"
+    },
+    {
+        "CustomerName": "CS-5894",
+        "TransactionDate": "8/31/19 16:31",
+        "Total": "31.28"
+    },
+    {
+        "CustomerName": "CS-5515",
+        "TransactionDate": "2/26/19 12:42",
+        "Total": "37.3"
+    }
+]

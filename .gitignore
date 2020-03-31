@@ -1,0 +1,25 @@
+# Visual Studio Code
+# Source: https://github.com/github/gitignore/blob/21419e391a78f2487340b3b1240b988aaf15b54f/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Node
+# Dependency directories
+node_modules/
+
+# Hide temporary folder
+temp/
+
+# Ignore log files
+logs/files/dev/*
+logs/files/prod/*
+
+# Keep empty folders
+!.gitkeep
+
+# Hide production secrets
+# .config/config.prod.js

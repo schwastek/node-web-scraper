@@ -1,0 +1,22 @@
+<div class="grid-x grid-padding-x">
+    <div class="large-6 cell">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th width="150">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#this}}
+                <tr>
+                    <td>{{this.ProductName}}</td>
+                    <td>{{this.Quantity}}</td>
+                    <td><a class="button small margin-0" href="{{this.ProductName}}-customers.html">Details</a></td>
+                </tr>
+                {{/this}}
+            </tbody>
+        </table>
+    </div>
+</div>

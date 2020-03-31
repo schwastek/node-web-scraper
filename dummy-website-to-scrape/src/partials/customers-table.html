@@ -1,0 +1,22 @@
+<div class="grid-x grid-padding-x">
+    <div class="large-6 cell">
+        <table>
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Transaction Date</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#this}}
+                <tr>
+                    <td>{{this.CustomerName}}</td>
+                    <td>{{this.TransactionDate}}</td>
+                    <td>{{this.Total}}</td>
+                </tr>
+                {{/this}}
+            </tbody>
+        </table>
+    </div>
+</div>
