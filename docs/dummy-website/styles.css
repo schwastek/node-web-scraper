@@ -1,0 +1,32 @@
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+table tbody tr:hover {
+  background: #eef0f3;
+}
+
+table td,
+table th {
+  border-bottom: .05rem solid #dadee4;
+  padding: .6rem .4rem;
+}
+
+table th {
+  border-bottom-width: .1rem;
+}
