@@ -35,7 +35,7 @@ describe('Update products script', function () {
     const htmlCompanyBurger = fs.readFileSync(path.resolve(__dirname, '../docs/dummy-website/products-meet-burger.html'));
     const htmlCompanyPackme = fs.readFileSync(path.resolve(__dirname, '../docs/dummy-website/products-packme-corp.html'));
 
-    nock('https://schwastek.github.io/test-gh-pages/dummy-website')
+    nock('https://schwastek.github.io/node-web-scraper/dummy-website')
       .get('/companies.html').reply(200, htmlCompanies)
       .get('/products-bark-industries.html').reply(200, htmlCompanyBark)
       .get('/products-kayne-enterprise.html').reply(200, htmlCompanyKayne)
