@@ -1,15 +1,14 @@
-const prod = require('./config.prod');
-const dev = require('./config.dev');
-const test = require('./config.test');
+/* eslint-disable global-require */
+// Disable `global-require` rule as it's overhead to load config for every environment
 
 function loadConfig() {
   switch (process.env.NODE_ENV) {
     case 'production':
-      return prod;
+      return require('./config.prod');
     case 'development':
-      return dev;
+      return require('./config.dev');
     case 'test':
-      return test;
+      return require('./config.test');
     default:
       throw new Error('NODE_ENV environment variable is not set.');
   }
